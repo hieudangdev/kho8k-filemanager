@@ -1,25 +1,25 @@
 # FileManager
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
+[Latest Version on Packagist][link-packagist]
+[Total Downloads][link-downloads]
+[Build Status][link-travis]
+[StyleCI][link-styleci]
 
 Backpack admin interface for files and folder, using [barryvdh/laravel-elfinder](https://github.com/barryvdh/laravel-elfinder). This package _literally_ just:
-- creates a ```public/uploads``` folder;
-- installs ```barryvdh/laravel-elfinder```;
+
+- creates a ``public/uploads`` folder;
+- installs ``barryvdh/laravel-elfinder``;
 - publishes an elFinder config and view, for elFinder to play nice with Backpack;
 - adds a menu item to the sidebar;
 
 ![https://backpackforlaravel.com/uploads/docs-4-0/media_library.png](https://backpackforlaravel.com/uploads/docs-4-0/media_library.png)
 
-
 ## Installation
 
 From your command line, require the package (this will also require barryvdh/laravel-elfinder):
 
-``` bash
-composer require backpack/filemanager
+```bash
+composer require khophim8k/filemanager
 ```
 
 Then run the install process:
@@ -33,9 +33,9 @@ That's it. Hit refresh in your admin panel, and you'll find a new sidebar item p
 ## Usage
 
 You can use elFinder in Backpack:
-- stand-alone, by accessing the ```/admin/elfinder``` route (see screenshot above);
-- inside the [```browse```](https://backpackforlaravel.com/docs/4.1/crud-fields#browse), [```browse_multiple```](https://backpackforlaravel.com/docs/4.1/crud-fields#browse_multiple) or [```ckeditor```](https://backpackforlaravel.com/docs/4.1/crud-fields#ckeditor) field types;
 
+- stand-alone, by accessing the ``/admin/elfinder`` route (see screenshot above);
+- inside the [``browse``](https://backpackforlaravel.com/docs/4.1/crud-fields#browse), [``browse_multiple``](https://backpackforlaravel.com/docs/4.1/crud-fields#browse_multiple) or [``ckeditor``](https://backpackforlaravel.com/docs/4.1/crud-fields#ckeditor) field types;
 
 ## Security
 
@@ -54,7 +54,6 @@ MIT. Please see the [license file](license.md) for more information.
 [ico-downloads]: https://img.shields.io/packagist/dt/backpack/filemanager.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/backpack/filemanager/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/249020338/shield
-
 [link-packagist]: https://packagist.org/packages/backpack/filemanager
 [link-downloads]: https://packagist.org/packages/backpack/filemanager
 [link-travis]: https://travis-ci.org/backpack/filemanager
